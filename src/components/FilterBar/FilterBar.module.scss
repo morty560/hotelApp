@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -30px;
+    gap: 30px;
+    padding: 5px 10px;
+    background-color: #fff;
+    height: 60px;
+    width: 600px;
+    border: 1px solid #2d2d2d;
+    color: black;
+}
+
+.star {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.filterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
